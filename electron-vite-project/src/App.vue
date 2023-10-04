@@ -1,8 +1,10 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+import MainMenu from './components/MainMenu.vue'
 </script>
 
 <template>
+  <MainMenu/>
   <div>
     <a href="https://electron-vite.github.io" target="_blank">
       <img src="/electron-vite.svg" class="logo" alt="Vite logo" />
